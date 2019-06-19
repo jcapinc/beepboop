@@ -1,0 +1,19 @@
+{
+  "name": "beepboop",
+  "version": "1.0.0",
+  "description": "Generic Bot A",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcapinc/beepboop.git"
+  },
+  "author": "Jeff Parrish <jeffs.linux@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcapinc/beepboop/issues"
+  },
+  "homepage": "https://github.com/jcapinc/beepboop#readme"
+}
