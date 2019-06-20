@@ -44,6 +44,10 @@ class DiscordGame extends Game{
 	setCell(row,column,value){
 		this.rows[row][column] = `:${value.toLowerCase()}:`;
 	}
+
+	render(){
+		return `.\r\n${this.renderRow(this.rows[0])}\r\n${this.renderRow(this.rows[1])}\r\n${this.renderRow(this.rows[2])}`;
+	}
 	
 	setupRows(){
 		this.rows = [
